@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n = 10;
+    int sum = 0;
+    while(n >= 0) {
+        sum+=n;
+        n--;
+    }
+    cout << sum;
+    
+    int a = 90;
+    int b = 17;
+    cout << endl;
+    cout << ((a>b)?a:b) << endl;
+    
+    
+    return 0;
+}
