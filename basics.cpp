@@ -19,7 +19,7 @@ int fact(int n) {
 
 int main()
 {
-    // Find sum till n numbers
+    // Find sum till n numbers - Method 1
     int n = 10;
     int sum = 0;
     while(n >= 0) {
@@ -28,6 +28,11 @@ int main()
     }
     cout << sum;
     
+    // Find sum till n numbers - Method 2
+    int n = 5;
+    int ans = n * (n+1) / 2;
+    cout << ans;
+
     // Minimum or maximum between two numbers
     int a = 90;
     int b = 17;
