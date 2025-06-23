@@ -41,11 +41,9 @@ int main()
     else
         cout << m << " is not prime";
     
-
     // Factorial of a number
     int x = 5;
     cout << endl << "Factorial is: " << fact(x);
 
-    
     return 0;
 }
